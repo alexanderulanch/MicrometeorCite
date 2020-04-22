@@ -1,42 +1,106 @@
 <% include ../partials/header %>
 <% include ../partials/menu %> 
-	<div class="container">
+  <div class="container">
     <div class = "h3">
       <center> Gallery </center>
       </div>
-    <div class = "row" style = "text-align:center">
-      <div class = "col">
-        <img src="../resources/meteoriteImageDatabase/micrometeorite1.jpg" alt="meteorite" height = "200px">
-        <div>
-          <p> User Description goes here (Note that we should automate loading these tags with JS but this is generally what it should look like)</p>
-            </div>
-            <div>
-                <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
-                <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
-                  </div>
+  
+  <!-- Page Content -->
+  <!-- NEED TO ADD IN A FOR LOOP HERE WITH JAVASCRIPT EJS IN ORDER TO LOAD ALL OF THE IMAGES FROM THE DATABASE -->
+
+
+
+<div class="container">
+
+  <h1 class="">Thumbnail Gallery</h1>
+
+  <hr class="mt-2 mb-5">
+
+  <div class="">
+
+    <!-- start first image -->
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="../resources/meteoriteImageDatabase/micrometeorite1.jpg" alt="meteorite" height = "200px">
+      </a>
+      <div>
+        <p> User Description goes here (Note that we should automate loading these tags with JS but this is generally what it should look like)</p>
           </div>
-      <div class = "col">
-        <img src="../resources/meteoriteImageDatabase/micrometeorite2.jpg" alt="meteorite" height = "200px">
-          <div> 
-              <p> Description goes here</p>
-              </div>
-            <div>
+          <div>
               <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
               <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
                 </div>
         </div>
-      <div class = "col">
-        <img src="../resources/meteoriteImageDatabase/micrometeorite3.png" alt="meteorite" height = "200px">
-        <div> 
-            <p> Description goes here</p>
-            </div>
+    </div>
+    <!-- end first image -->
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="../resources/meteoriteImageDatabase/micrometeorite2.jpg" alt="meteorite" height= "200px">
+      </a>
+      <div>
+        <p> User Description goes here (Note that we should automate loading these tags with JS but this is generally what it should look like)</p>
+          </div>
           <div>
-            <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
-            <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
-              </div>
-      </div>
+              <button type="button" class="btn btn-success" onclick="castVote()">Valid</button>
+              <button type="button" class="btn btn-danger" onclick="castVote()">Invalid</button>
+                </div>
+        </div>
+    </div>
 
-      </div>
-	</div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EUfxH-pze7s/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/M185_qYH8vg/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/sesveuG_rNo/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/AvhMzHwiE_0/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/2gYsZUmockw/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/EMSDtjVHdQ8/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/8mUEy0ABdNE/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/G9Rfc1qccH4/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/aJeH0KcFkuc/400x300" alt="">
+          </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300" alt="">
+          </a>
+    </div>
+  </div>
+
+</div>
+<!-- /.container -->
+-->
 
 <% include ../partials/footer %>
