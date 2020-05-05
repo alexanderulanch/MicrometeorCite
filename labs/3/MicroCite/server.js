@@ -97,6 +97,12 @@ function logOutProceed(req, res) {
             .then(function (rows) {
                 if (rows[0].hash_val <= parseFloat(cookie) + .00000000000001 && rows[0].hash_val >= parseFloat(cookie) - .00000000000001) {
                     console.log('ocookie logout hello', cookie);
+                    logOutCommand ="UPDATE end_usr SET hash_val=NULL WHERE hash_val=" + cookie + ";";
+                    db.any(logOutCommand)
+                    .then(function (rows) {
+                        console.log("i am row row", rows);
+                        res.redirect('/login');
+                    })
                     return [true, rows[0].hash_val];
                 }
             })
@@ -387,7 +393,7 @@ app.post('/login/submit', function(req, res) {
     console.log(usernameField);
     console.log(passwordField);
     var okField = 'bad';
-    var get_users = "SELECT * FROM end_usr;"
+    var get_users = "SELECT * FROM end_usr WHERE name='" + usernameField + "';";
     db.task('get-everything',task => {
         return task.batch([
             task.any(get_users)
@@ -447,10 +453,10 @@ app.post('/register/submit', function (req, res) {
             reject(console.log(msg, "errrror"));
             return [false, 0];
         }
-        resolve(newUsrInfo[0]);
+        resolve(newUsrInfo);
     }); okSubmit.then(function (okSubmit) {
         // console.log(okSubmit);
-        var newUser = "INSERT INTO end_usr (name, email, active, end_usrname, password) VALUES (" + okSubmit.first_name + "," + okSubmit.email + ", true, " + okSubmit.username + "," + okSubmit.password + ");";
+        var newUser = "INSERT INTO end_usr (name, email, active, end_usrname, password, last_access) VALUES ('" + okSubmit.first_name + "','" + okSubmit.email + "', 'true', '" + okSubmit.username + "','" + okSubmit.password + "','1999-01-08 01:01:01');";
         // console.log("user: ", user);
         let userId = new Promise(function (resolve, reject) {
             db.any(newUser)
@@ -462,19 +468,20 @@ app.post('/register/submit', function (req, res) {
                     console.log("error inputting to db", err);
                 });
         }); userId.then(function (userId) {
-            // console.log("new userId: ", userId);
-            var new_input = "select * from end_user where name=" + req.body[0].first_name + ";";
+            console.log("new userId: ", req.body.first_name);
+            console.log("new userId: ", req.body);
+            var new_input = "select * from end_usr where name=" + req.body.first_name + ";";
             // console.log("new input: ", new_input);
             if (okSubmit) {
-                db.any(new_input)
-                    .then(function (rows) {
-                        console.log("i am row", rows);
+                //db.any(new_input)
+                    //.then(function (rows) {
+                       // console.log("i am row", rows);
                         res.redirect('/login');
-                    })
-                    .catch(function (err) {
+                   // })
+                   // .catch(function (err) {
                         // display error message in case an error
-                        console.log("error inputting to db", err);
-                    });
+                   //     console.log("error inputting to db", err);
+                   // });
             }
         })
 

@@ -9343,3 +9343,838 @@ ocookie hello 0.6043774250620102
     loggedin: null,
     hash_val: 0.60437742506201 } ]
 ocookie hello 0.6043774250620102
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.60437742506201 } ]
+ocookie hello 0.6043774250620102
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.60437742506201 } ]
+ocookie hello 0.6043774250620102
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.60437742506201 } ]
+ocookie hello 0.6043774250620102
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.60437742506201 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.346729857435879 } ]
+ocookie hello 0.3467298574358786
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.346729857435879 } ]
+ocookie hello 0.3467298574358786
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.346729857435879 } ]
+ocookie hello 0.3467298574358786
+ocookie logout hello 0.3467298574358786
+testusertesty
+pss
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.346729857435879 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.346729857435879 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+ocookie logout hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+error inputting to db { error: syntax error at or near ","
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 91,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '120',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'scan.l',
+  line: '1127',
+  routine: 'scanner_yyerror' }
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+ocookie logout hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+ocookie logout hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+ocookie logout hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+8080 is the magic port
+ocookie logout hello 0.9402020822233783
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.940202082223378 } ]
+ocookie hello 0.9402020822233783
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.940202082223378 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.641351400598988 } ]
+ocookie hello 0.6413514005989875
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.641351400598988 } ]
+ocookie hello 0.6413514005989875
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.641351400598988 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+unknown error ReferenceError: new_input is not defined
+    at /root/labs/3/MicroCite/server.js:141:24
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+xNot Logged In undefined
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+i am row []
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+i am row []
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+i am row []
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+ocookie logout hello 0.6999629463965917
+i am row []
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.699962946396592 } ]
+ocookie hello 0.6999629463965917
+8080 is the magic port
+ocookie logout hello 0.6999629463965917
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.313361455305663 } ]
+ocookie hello 0.3133614553056625
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.313361455305663 } ]
+ocookie hello 0.3133614553056625
+ocookie logout hello 0.3133614553056625
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+{ first_name: 'j',
+  last_name: 'l',
+  username: 'generic',
+  email: 'test@testl.com',
+  password: 'c',
+  confirm_password: 'c' }
+8080 is the magic port
+{ first_name: 'j',
+  last_name: 'l',
+  username: 'generic',
+  email: 'test@testl.com',
+  password: 'p',
+  confirm_password: 'p' }
+error inputting to db { error: column "j" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 101,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '74',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3293',
+  routine: 'errorMissingColumn' }
+8080 is the magic port
+{ first_name: 'j',
+  last_name: 'l',
+  username: 'generic',
+  email: 'test@testl.com',
+  password: 'p',
+  confirm_password: 'p' }
+error inputting to db { error: INSERT has more expressions than target columns
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 116,
+  severity: 'ERROR',
+  code: '42601',
+  detail: undefined,
+  hint: undefined,
+  position: '118',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'analyze.c',
+  line: '923',
+  routine: 'transformInsertRow' }
+8080 is the magic port
+{ first_name: 'j',
+  last_name: 'l',
+  username: 'generic',
+  email: 'test@testl.com',
+  password: 'p',
+  confirm_password: 'p' }
+8080 is the magic port
+{ first_name: 'j',
+  last_name: 'j',
+  username: 'j',
+  email: 'test@testj.com',
+  password: 'p',
+  confirm_password: 'p' }
+8080 is the magic port
+{ first_name: 'jj',
+  last_name: 'jj',
+  username: 'jj',
+  email: 'test@testjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+error inputting to db { error: relation "end_user" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 107,
+  severity: 'ERROR',
+  code: '42P01',
+  detail: undefined,
+  hint: undefined,
+  position: '15',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '1180',
+  routine: 'parserOpenTable' }
+8080 is the magic port
+{ first_name: 'jjj',
+  last_name: 'jjj',
+  username: 'jjj',
+  email: 'test@testjjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+error inputting to db { error: column "jjj" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 103,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '34',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3293',
+  routine: 'errorMissingColumn' }
+8080 is the magic port
+{ first_name: 'jjj',
+  last_name: 'jjj',
+  username: 'jjj',
+  email: 'test@testjjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+new userId:  jjj
+new userId:  { first_name: 'jjj',
+  last_name: 'jjj',
+  username: 'jjj',
+  email: 'test@testjjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+error inputting to db { error: column "jjj" does not exist
+    at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+    at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+    at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+    at Socket.emit (events.js:193:13)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:276:11)
+    at Socket.Readable.push (_stream_readable.js:231:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+  name: 'error',
+  length: 103,
+  severity: 'ERROR',
+  code: '42703',
+  detail: undefined,
+  hint: undefined,
+  position: '34',
+  internalPosition: undefined,
+  internalQuery: undefined,
+  where: undefined,
+  schema: undefined,
+  table: undefined,
+  column: undefined,
+  dataType: undefined,
+  constraint: undefined,
+  file: 'parse_relation.c',
+  line: '3293',
+  routine: 'errorMissingColumn' }
+8080 is the magic port
+{ first_name: 'jjj',
+  last_name: 'jjj',
+  username: 'jjj',
+  email: 'test@testjjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+new userId:  jjj
+new userId:  { first_name: 'jjj',
+  last_name: 'jjj',
+  username: 'jjj',
+  email: 'test@testjjj.com',
+  password: 'p',
+  confirm_password: 'p' }
+jjj
+p
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0 }
+testusertesty
+jjj
+8080 is the magic port
+jjj
+p
+login error BatchError {
+    stat: { total: 1, succeeded: 0, failed: 1, duration: 1 }
+    errors: [
+        0: { error: column "jjj" does not exist
+            at Connection.parseE (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:555:11)
+            at Connection.parseMessage (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:380:19)
+            at Socket.<anonymous> (/root/labs/3/MicroCite/node_modules/pg/lib/connection.js:120:22)
+            at Socket.emit (events.js:193:13)
+            at addChunk (_stream_readable.js:295:12)
+            at readableAddChunk (_stream_readable.js:276:11)
+            at Socket.Readable.push (_stream_readable.js:231:10)
+            at TCP.onStreamRead (internal/stream_base_commons.js:154:17)
+          name: 'error',
+          length: 103,
+          severity: 'ERROR',
+          code: '42703',
+          detail: undefined,
+          hint: undefined,
+          position: '34',
+          internalPosition: undefined,
+          internalQuery: undefined,
+          where: undefined,
+          schema: undefined,
+          table: undefined,
+          column: undefined,
+          dataType: undefined,
+          constraint: undefined,
+          file: 'parse_relation.c',
+          line: '3293',
+          routine: 'errorMissingColumn' }
+    ]
+}
+8080 is the magic port
+jjj
+p
+{ end_usr_id: 9,
+  name: 'jjj',
+  email: 'test@testjjj.com',
+  active: true,
+  end_usrname: 'jjj',
+  password: 'p',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+jjj
+jjj
+[]
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987

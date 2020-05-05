@@ -8389,3 +8389,567 @@ Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the cli
     at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
     at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
     at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:281:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:281:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:281:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+TypeError: Cannot read property 'first_name' of undefined
+    at /root/labs/3/MicroCite/server.js:459:110
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+TypeError: Cannot read property 'first_name' of undefined
+    at /root/labs/3/MicroCite/server.js:472:80
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:479
+            }
+            ^
+
+SyntaxError: missing ) after argument list
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+TypeError: Cannot read property 'first_name' of undefined
+    at /root/labs/3/MicroCite/server.js:472:80
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+/root/labs/3/MicroCite/server.js:480
+                    })
+                     ^
+
+SyntaxError: Unexpected token )
+    at Module._compile (internal/modules/cjs/loader.js:760:23)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Object.<anonymous> (/usr/lib/node_modules/pm2/lib/ProcessContainerFork.js:32:23)
+    at Module._compile (internal/modules/cjs/loader.js:816:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:827:10)
+    at Module.load (internal/modules/cjs/loader.js:685:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:620:12)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
