@@ -405,7 +405,7 @@ app.post('/login/submit', function(req, res) {
     console.log(usernameField);
     console.log(passwordField);
     var okField = 'bad';
-    var get_users = "SELECT * FROM end_usr WHERE name='" + usernameField + "';";
+    var get_users = "SELECT * FROM end_usr WHERE end_usrname='" + usernameField + "';";
     db.task('get-everything',task => {
         return task.batch([
             task.any(get_users)
@@ -415,11 +415,11 @@ app.post('/login/submit', function(req, res) {
         console.log(info[0][0]);
         console.log(info[0][0].name);
         console.log(usernameField);
-        if (info[0][0].name == usernameField){
+        if (info[0][0].end_usrname == usernameField){
             if(info[0][0].password == passwordField){
                 let loginPromise = new Promise((resolve, reject) => {
                     HashVal = Math.random();
-                    db.any("UPDATE end_usr set hash_val=" +HashVal+ " WHERE name = '" + usernameField + "';")
+                    db.any("UPDATE end_usr set hash_val=" +HashVal+ " WHERE end_usrname = '" + usernameField + "';")
                     .then(function (rows) {
                         console.log(rows); 
                     })
@@ -482,7 +482,7 @@ app.post('/register/submit', function (req, res) {
         }); userId.then(function (userId) {
             console.log("new userId: ", req.body.first_name);
             console.log("new userId: ", req.body);
-            var new_input = "select * from end_usr where name=" + req.body.first_name + ";";
+            var new_input = "select * from end_usr where end_usrname=" + req.body.first_name + ";";
             // console.log("new input: ", new_input);
             if (okSubmit) {
                 //db.any(new_input)

@@ -10404,3 +10404,625 @@ cookieError undefined
     loggedin: null,
     hash_val: 0.450918806372987 } ]
 ocookie hello 0.450918806372987
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+ocookie logout hello 0.11912433662439681
+i am row row []
+{ first_name: 'jackson',
+  last_name: 'curry',
+  username: 'jcurry3099',
+  email: 'jcurry3099@bvsd.org',
+  password: 'Fireplace64!',
+  confirm_password: 'Fireplace64!' }
+new userId:  jackson
+new userId:  { first_name: 'jackson',
+  last_name: 'curry',
+  username: 'jcurry3099',
+  email: 'jcurry3099@bvsd.org',
+  password: 'Fireplace64!',
+  confirm_password: 'Fireplace64!' }
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450126999255871 } ]
+ocookie hello 0.4501269992558705
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450126999255871 } ]
+ocookie hello 0.4501269992558705
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450126999255871 } ]
+ocookie hello 0.4501269992558705
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:130:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:128:14)
+    at /root/labs/3/MicroCite/server.js:169:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:168:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+ocookie logout hello 0.450918806372987
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+pss
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.450126999255871 }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0.450126999255871 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.0237958922879471 } ]
+ocookie hello 0.023795892287947096
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.0237958922879471 } ]
+ocookie hello 0.023795892287947096
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.0237958922879471 } ]
+ocookie hello 0.023795892287947096
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.0237958922879471 } ]
+ocookie hello 0.023795892287947096
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.0237958922879471 } ]
+ocookie hello 0.023795892287947096
+ocookie logout hello 0.023795892287947096
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+{ first_name: 'user5',
+  last_name: 'lastname',
+  username: 'user5lastname',
+  email: 'test@user5.com',
+  password: 'password',
+  confirm_password: 'password' }
+new userId:  user5
+new userId:  { first_name: 'user5',
+  last_name: 'lastname',
+  username: 'user5lastname',
+  email: 'test@user5.com',
+  password: 'password',
+  confirm_password: 'password' }
+user5lastname
+password
+undefined
+login error TypeError: Cannot read property 'name' of undefined
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:416:32)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswwrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.679283270288388 } ]
+ocookie hello 0.679283270288388
+ocookie logout hello 0.679283270288388
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+pss
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.719322062544006 } ]
+ocookie hello 0.7193220625440064
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.719322062544006 } ]
+ocookie hello 0.7193220625440064
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.719322062544006 } ]
+ocookie hello 0.7193220625440064
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.719322062544006 } ]
+ocookie hello 0.7193220625440064
+ocookie logout hello 0.7193220625440064
+i am row row []
+[]
+loginhelper error [ false, 0 ]
+{ first_name: 'demo',
+  last_name: 'user',
+  username: 'DemoUser',
+  email: 'demo@demo.com',
+  password: 'password',
+  confirm_password: 'password' }
+new userId:  demo
+new userId:  { first_name: 'demo',
+  last_name: 'user',
+  username: 'DemoUser',
+  email: 'demo@demo.com',
+  password: 'password',
+  confirm_password: 'password' }
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.743361819704426 } ]
+ocookie hello 0.7433618197044258
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.743361819704426 } ]
+ocookie hello 0.7433618197044258
+ocookie logout hello 0.7433618197044258
+i am row row []
+DemoUser
+password
+undefined
+login error TypeError: Cannot read property 'name' of undefined
+    at db.task.then.info (/root/labs/3/MicroCite/server.js:416:32)
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+8080 is the magic port
+DemoUser
+password
+{ end_usr_id: 12,
+  name: 'demo',
+  email: 'demo@demo.com',
+  active: true,
+  end_usrname: 'DemoUser',
+  password: 'password',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+demo
+DemoUser
+[]
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'testusertesty',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'testusertesty',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.472724937367138 } ]
+ocookie hello 0.47272493736713805
+ocookie logout hello 0.47272493736713805
+i am row row []
+jjj
+p
+{ end_usr_id: 9,
+  name: 'jjj',
+  email: 'test@testjjj.com',
+  active: true,
+  end_usrname: 'jjj',
+  password: 'p',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+jjj
+jjj
+[]
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.696819670337651 } ]
+ocookie hello 0.6968196703376515
+ocookie logout hello 0.6968196703376515
+i am row row []
+DemoUser
+password
+{ end_usr_id: 12,
+  name: 'demo',
+  email: 'demo@demo.com',
+  active: true,
+  end_usrname: 'DemoUser',
+  password: 'password',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+demo
+DemoUser
+[]
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+DemoUser
+password
+{ end_usr_id: 12,
+  name: 'demo',
+  email: 'demo@demo.com',
+  active: true,
+  end_usrname: 'DemoUser',
+  password: 'password',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+demo
+DemoUser
+[]
+[]
+loginhelper error [ false, 0 ]
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'testusertesty',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'testusertesty',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.643772713888722 } ]
+ocookie hello 0.6437727138887217
+8080 is the magic port
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'testusertesty',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.643772713888722 } ]
+ocookie hello 0.6437727138887217
+ocookie logout hello 0.6437727138887217
+i am row row []
+DemoUser
+password
+{ end_usr_id: 12,
+  name: 'demo',
+  email: 'demo@demo.com',
+  active: true,
+  end_usrname: 'DemoUser',
+  password: 'password',
+  last_access: '01:01:01',
+  profile_img: null,
+  loggedin: null,
+  hash_val: null }
+demo
+DemoUser
+[]
+[ { end_usr_id: 12,
+    name: 'demo',
+    email: 'demo@demo.com',
+    active: true,
+    end_usrname: 'DemoUser',
+    password: 'password',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.417574342849656 } ]
+ocookie hello 0.41757434284965567
+[ { end_usr_id: 12,
+    name: 'demo',
+    email: 'demo@demo.com',
+    active: true,
+    end_usrname: 'DemoUser',
+    password: 'password',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.417574342849656 } ]
+ocookie hello 0.41757434284965567
