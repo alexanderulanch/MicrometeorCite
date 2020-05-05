@@ -237,30 +237,42 @@ app.get('/worldMap', function(req, res) {
 });
 
 // gallary page 
-app.get('/Gallery', function(req, res) {
-	//res.render('pages/Gallery',{
-    //		my_title:"Micro Gallery"
-	//});
-    var bsPromise = new Promise(function(resolve, reject) {
-        let okChk = logInOKCheck(req, res); 
+
+app.get('/Gallery', function (req, res) {
+    //res.render('pages/Gallery',{
+    //      my_title:"Micro Gallery"
+    //});
+    var bsPromise = new Promise(function (resolve, reject) {
+        let okChk = logInOKCheck(req, res);
         resolve(okChk);
-    }); bsPromise.then(function (bsPromise){
-            if(bsPromise[0] === true) {
-                res.render('pages/Gallery', {
-                    data: bsPromise[1],
-                    local_css: "signin.css",
-                    my_title: "Login Page"
-                });
-            }
-            else {
-                console.log("loginhelper error", bsPromise);
-                res.render('pages/login', {
-                    local_css: "signin.css",
-                    my_title: "Login Page"
-                });
-            }
-        });
+    }); bsPromise.then(function (bsPromise) {
+        var myQuery1 = "select * from micro_image;";
+        if (bsPromise[0] === true) {
+            db.any(myQuery1)
+                .then(function (rows) {
+                    res.render('pages/Gallery', {
+                        my_title: "Micro Gallery",
+                        data: rows
+                    })
+                })
+                .catch(function (err) {
+                    console.log('DISASTER', err);
+                    response.render('pages/Gallery', {
+                        my_title: 'Gallery',
+                        data: ''
+                    })
+                })
+        }
+        else {
+            console.log("loginhelper error", bsPromise);
+            res.render('pages/login', {
+                local_css: "signin.css",
+                my_title: "Login Page"
+            });
+        }
+    });
 });
+
 
 // home page 
 //app.get('/home', function(req, res) {

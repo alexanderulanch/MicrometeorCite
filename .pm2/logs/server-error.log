@@ -8953,3 +8953,58 @@ SyntaxError: Unexpected token )
     at Module.load (internal/modules/cjs/loader.js:685:32)
     at Function.Module._load (internal/modules/cjs/loader.js:620:12)
     at Function.Module.runMain (internal/modules/cjs/loader.js:877:12)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+TypeError: /root/labs/3/MicroCite/views/pages/Gallery.ejs:51
+    49|   	<!-- VARIABLES BELOW (FIRST I AM POPULATING AN ARRAY TO FILL THE GALLERY USING THE DATABASE) -->
+    50|   	<% var allPics = [] %>
+ >> 51|   	<%
+    52|   	if (data) {
+    53|   		data[1].forEach(function(item){
+    54|   			var newStr = item.image_id
+
+Cannot read property 'forEach' of undefined
+    at eval (eval at compile (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:618:12), <anonymous>:61:13)
+    at returnedFn (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:653:17)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:251:36)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+    at /root/labs/3/MicroCite/server.js:253:25
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)
+Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at ServerResponse.setHeader (_http_outgoing.js:482:11)
+    at ServerResponse.header (/root/labs/3/MicroCite/node_modules/express/lib/response.js:767:10)
+    at ServerResponse.send (/root/labs/3/MicroCite/node_modules/express/lib/response.js:170:12)
+    at done (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1004:10)
+    at tryHandleCache (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:257:5)
+    at View.exports.renderFile [as engine] (/root/labs/3/MicroCite/node_modules/ejs/lib/ejs.js:482:10)
+    at View.render (/root/labs/3/MicroCite/node_modules/express/lib/view.js:135:8)
+    at tryRender (/root/labs/3/MicroCite/node_modules/express/lib/application.js:640:10)
+    at Function.render (/root/labs/3/MicroCite/node_modules/express/lib/application.js:592:3)
+    at ServerResponse.render (/root/labs/3/MicroCite/node_modules/express/lib/response.js:1008:7)
+TypeError: Cannot read property '0' of undefined
+    at /root/labs/3/MicroCite/server.js:250:22
+    at processTicksAndRejections (internal/process/task_queues.js:86:5)

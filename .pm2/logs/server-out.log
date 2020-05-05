@@ -10178,3 +10178,229 @@ jjj
     loggedin: null,
     hash_val: 0.450918806372987 } ]
 ocookie hello 0.450918806372987
+[]
+loginhelper error [ false, 0 ]
+testusertesty
+psswrd123
+{ end_usr_id: 1,
+  name: 'testusertesty',
+  email: 'test@test.test',
+  active: true,
+  end_usrname: 'tstusrnm',
+  password: 'psswrd123',
+  last_access: '04:05:06',
+  profile_img: null,
+  loggedin: null,
+  hash_val: 0 }
+testusertesty
+testusertesty
+[]
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 1,
+    name: 'testusertesty',
+    email: 'test@test.test',
+    active: true,
+    end_usrname: 'tstusrnm',
+    password: 'psswrd123',
+    last_access: '04:05:06',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.119124336624397 } ]
+ocookie hello 0.11912433662439681
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+8080 is the magic port
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+8080 is the magic port
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:130:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:128:14)
+    at /root/labs/3/MicroCite/server.js:169:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:168:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:130:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:128:14)
+    at /root/labs/3/MicroCite/server.js:169:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:168:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+8080 is the magic port
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+8080 is the magic port
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:130:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:128:14)
+    at /root/labs/3/MicroCite/server.js:169:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:168:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+xNot Logged In undefined
+TypeError: Cannot read property 'split' of undefined
+    at /root/labs/3/MicroCite/server.js:130:37
+    at new Promise (<anonymous>)
+    at logInOKCheck (/root/labs/3/MicroCite/server.js:128:14)
+    at /root/labs/3/MicroCite/server.js:246:21
+    at new Promise (<anonymous>)
+    at /root/labs/3/MicroCite/server.js:245:21
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5)
+    at next (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:137:13)
+    at Route.dispatch (/root/labs/3/MicroCite/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/root/labs/3/MicroCite/node_modules/express/lib/router/layer.js:95:5) 'errrror'
+cookieError undefined
+[ { end_usr_id: 9,
+    name: 'jjj',
+    email: 'test@testjjj.com',
+    active: true,
+    end_usrname: 'jjj',
+    password: 'p',
+    last_access: '01:01:01',
+    profile_img: null,
+    loggedin: null,
+    hash_val: 0.450918806372987 } ]
+ocookie hello 0.450918806372987
